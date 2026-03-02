@@ -4,6 +4,6 @@ class Demo{
 		ArrayList<String> arr = new ArrayList<>();
 		arr.add("Volvo");
 		arr.add("BMW");
-		System.out.println(""+ arr);
+		System.out.println(""+ Arrays.toString(arr));
 	}
 }
