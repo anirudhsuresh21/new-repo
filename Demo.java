@@ -6,6 +6,7 @@ class Demo{
 		arr.add("BMW");
 		arr.add("Lambo");
 		arr.add("Ford");
+		arr.add("Ferrari");
 		System.out.println(""+ arr);
 	}
 }
