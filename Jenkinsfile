@@ -5,12 +5,13 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'docker build -t my-node-app .'
+                bat 'docker build -t my-html .'
             }
         }
 
         stage('Run') {
             steps {
-                bat 'docker run -d -p 3005:3000 my-node-app'
+                bat 'docker run my-html'
             }
         }
     }
